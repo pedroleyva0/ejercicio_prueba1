@@ -4,7 +4,7 @@
     ThreadHelper.ThrowIfNotOnUIThread();
     string message = "Hello World!";
     string title = "Command";
-    public int 0f;
+
 
     // Show a message box to prove we were here
     VsShellUtilities.ShowMessageBox(
@@ -13,6 +13,6 @@
         title,
         OLEMSGICON.OLEMSGICON_INFO,
         OLEMSGBUTTON.OLEMSGBUTTON_OK,
-        OLEMSGDEFBUTTON.OLEMSGDEFBUTTON_FIRST);
+        OLEMSGDEFBUTTON.OLEMSGDEFBUTTON_FIRST); ;
 }
 ...
