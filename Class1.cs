@@ -4,7 +4,7 @@
     ThreadHelper.ThrowIfNotOnUIThread();
     string message = "Hello World!";
     string title = "Command";
-    string people = "Name"
+
 
     // Show a message box to prove we were here
     VsShellUtilities.ShowMessageBox(
